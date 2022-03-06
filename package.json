@@ -1,0 +1,25 @@
+{
+  "name": "mcapijs",
+  "version": "1.0.0",
+  "description": "mcapi library for javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenya705/mcapijs.git"
+  },
+  "keywords": [
+    "mcapi"
+  ],
+  "author": "jenya705",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenya705/mcapijs/issues"
+  },
+  "homepage": "https://github.com/jenya705/mcapijs#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}
