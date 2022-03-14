@@ -1,5 +1,5 @@
 function validateID(id) {
-    if (typeof(id) != string || 
+    if (typeof(id) !== 'string' || 
         !(isUsername(id) || isUUID(id))
     ) {
         throw new Error("not player id")
@@ -21,3 +21,6 @@ function isUUID(id) {
 function isUsername(username) {
     return username.length >= 3 && username.length <= 16
 }
+
+exports.validateID = validateID
+exports.validateUUID = validateUUID

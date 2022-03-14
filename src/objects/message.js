@@ -12,15 +12,20 @@ function message(type, message) {
 } 
 
 function defaultMessage(str) {
-    if (typeof(str) != string) {
+    if (typeof(str) !== 'string') {
         throw new Error("str is not string")
     }
     return message("default", str)
 } 
 
 function componentMessage(component) {
-    if (typeof(component) != object) {
+    if (typeof(component) !== 'object') {
         throw new Error("component is not object (json)")
     }
     return message("component", component)
 }
+
+exports.validateMessage = validateMessage
+exports.message = message
+exports.defaultMessage = defaultMessage
+exports.componentMessage = componentMessage

@@ -1,5 +1,5 @@
 function asPath(path) {
-    if (typeof(path) == string) {
+    if (typeof(path) === 'string') {
         return path
     }
     end_path = ""
@@ -9,3 +9,5 @@ function asPath(path) {
     }
     return end_path
 }
+
+exports.asPath = asPath

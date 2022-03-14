@@ -141,7 +141,7 @@ class RestClient {
         return await this.make_request_data("GET", `world/${id}/block/${x}/${y}/${z}/data/inventory`)
     }
 
-    async get_block_inventory(id, x, y, z, index) {
+    async get_block_inventory_item(id, x, y, z, index) {
         if (isNaN(x) || isNaN(y) || isNaN(z)) throw new Error("Coordinate is not number")
         if (isNaN(index)) throw new Error("Index is not number")
         return await this.make_request_data("GET", `world/${id}/block/${x}/${y}/${z}/data/inventory/${index}`)
