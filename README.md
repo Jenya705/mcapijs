@@ -1,2 +1,2 @@
 # mcapijs
- mcapi library for javascript
+ mcapi library for nodejs
