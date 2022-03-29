@@ -1,5 +1,5 @@
 {
-  "name": "mcapijs",
+  "name": "mcapijslib",
   "version": "1.0.0",
   "description": "mcapi library for javascript",
   "main": "src/index.js",
@@ -11,7 +11,9 @@
     "url": "git+https://github.com/jenya705/mcapijs.git"
   },
   "keywords": [
-    "mcapi"
+    "mcapi",
+    "minecraft",
+    "webapi"
   ],
   "author": "jenya705",
   "license": "MIT",
