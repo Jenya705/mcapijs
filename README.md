@@ -7,7 +7,7 @@ mcapi library for nodejs
 # Example usage
 
 ```js
-const mcapi = require('./index.js')
+const mcapi = require('mcapijslib')
 
 rest_client = new mcapi.rest.Client(
     "localhost:8080", // host 
