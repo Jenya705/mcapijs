@@ -2,7 +2,7 @@
 mcapi library for nodejs
 
 # Installation
-`npm install mcapilibjs`
+`npm install mcapijslib`
 
 # Example usage
 
