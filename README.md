@@ -1,5 +1,5 @@
 # mcapijs
- mcapi library for javascript
+mcapi library for nodejs
 
 # Installation
 `npm install mcapilibjs`
